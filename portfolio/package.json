@@ -9,7 +9,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "dev": "webpack -d --watch",
-    "build" : "webpack -p"
+    "build": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -30,11 +30,18 @@
   "dependencies": {
     "axios": "^0.16.1",
     "babel-preset-stage-1": "^6.1.18",
+    "classnames": "^2.2.5",
     "lodash": "^3.10.1",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
+    "normalize.css": "^7.0.0",
+    "react": "^0.14.9",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-addons-transition-group": "^15.5.2",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^0.14.9",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
+    "react-toolbox": "^2.0.0-beta.8",
+    "reactstrap": "^4.6.2",
     "redux": "^3.0.4",
     "redux-promise": "^0.5.3"
   }
